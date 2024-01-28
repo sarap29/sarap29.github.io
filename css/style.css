@@ -97,7 +97,7 @@ h6,
   transform: scale(1);
 }
 
-.item .item-wrap > .work-info {
+.item .item-wrap>.work-info {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -112,12 +112,12 @@ h6,
   transition: .3s all ease;
 }
 
-.item .item-wrap > .work-info h3 {
+.item .item-wrap>.work-info h3 {
   font-size: 20px;
   margin-bottom: 0;
 }
 
-.item .item-wrap > .work-info span {
+.item .item-wrap>.work-info span {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -210,7 +210,7 @@ h6,
   display: inline-block;
 }
 
-.testimonial-carousel .owl-dots .owl-dot > span {
+.testimonial-carousel .owl-dots .owl-dot>span {
   display: inline-block;
   width: 7px;
   height: 7px;
@@ -223,7 +223,7 @@ h6,
   outline: none;
 }
 
-.testimonial-carousel .owl-dots .owl-dot.active > span {
+.testimonial-carousel .owl-dots .owl-dot.active>span {
   background: #0d1e2d;
 }
 
@@ -536,7 +536,7 @@ h6,
 
 
 @media (max-width: 780px) {
-  .custom-navbar > .container {
+  .custom-navbar>.container {
     padding-right: 0;
     padding-left: 0;
   }
@@ -565,8 +565,8 @@ h2 {
 
 
 
-.under{
-  position:relative;
+.under {
+  position: relative;
 }
 
 .under::before {
@@ -579,6 +579,7 @@ h2 {
   margin-top: 36px;
   border-radius: 10px;
 }
+
 #btn-back-to-top {
   position: fixed;
   bottom: 34px;
@@ -602,14 +603,18 @@ p.parrafoNav {
 @media only screen and (max-width: 600px) {
   .intro {
     font-size: 2.5em;
+  }
+
+  #multipleStrings {
+    font-size: 2.5em !important;
 }
 
-p#multipleStrings {
-  font-size: 2.5em;
-}
+  #btn-back-to-top {
+    z-index: 0;
+  }
 
-#btn-back-to-top {
- z-index: 0;
+  h2 {
+    font-size: 2.4em;
 }
 
 }
