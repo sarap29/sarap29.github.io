@@ -63,7 +63,7 @@ AOS.init({
 
 
 
-var content = ' Full Stack Developer ';
+var content = 'Full Stack Developer ';
 
 var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 

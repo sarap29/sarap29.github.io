@@ -604,8 +604,12 @@ p.parrafoNav {
     font-size: 2.5em;
 }
 
+p#multipleStrings {
+  font-size: 2.5em;
+}
+
 #btn-back-to-top {
- z-index: 1;
+ z-index: 0;
 }
 
 }
