@@ -588,6 +588,7 @@ h2 {
   border-radius: 100%;
   border-color: black;
   background: black;
+  z-index: 1;
 
 }
 
